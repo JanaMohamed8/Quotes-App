@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px){
+    .inner{
+        left: 50px;
+        right: 50px;
+     }
+}
+
+@media screen and (max-width: 767px){
+    .inner{
+        top: 50px;
+        bottom: 50px;
+        left: 50px;
+        right: 50px;
+     }
+     h1{
+        font-weight: 700;
+        font-size: 30px;
+     }
+     p{
+        font-size:18px ;
+     }
+     .icon-quote1{
+        font-size: 20px;
+    }
+    .icon-quote2{
+        font-size: 20px;
+    }
+    .btn-quote{
+        width: 150px;
+    }
+
+}

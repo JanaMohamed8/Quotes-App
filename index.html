@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- important meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta disc -->
+    <meta name="description" content="Quotes">
+    <meta name="keywords" content="Quotes,random Quotes ">
+    <!-- tab -->
+    <title>Quotes App</title>
+    <!-- style links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section id="quotes" class="vh-100">
+        <div class="layer  vh-100">
+            <div class="inner d-flex flex-wrap justify-content-center">
+               
+                <div class="container-md text-center">
+                     
+                   
+                    <h1> <i class="fa-solid fa-quote-right icon-quote1 "></i> Quote of the Day <i class="fa-solid fa-quote-right  icon-quote2"></i> </h1>
+                    
+                    <p>Press the button below to receive a random quote!</p>
+                    <button onclick="getQuotes()" class="btn-quote">New Quote</button>
+                    <p id="quote"></p>
+                    <p id="author"></p>
+                </div>
+    
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
